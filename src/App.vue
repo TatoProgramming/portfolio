@@ -6,6 +6,7 @@
 
 <script>
   import Header from './shared/components/Header.vue';
+
   export default {
     name: 'app',
     components:{
@@ -13,7 +14,7 @@
     },
     data () {
       return {
-        msg: 'Welcome to Your Vue.js App'
+
       }
     }
   }
