@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="container">
-    <Header></Header>
+    <Header> <a href="#" class="item">Portfolio</a></Header>
   </div>
 </template>
 
