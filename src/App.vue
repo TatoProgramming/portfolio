@@ -1,21 +1,25 @@
 <template>
-  <div id="app" class="container">
-    <Header> <a href="#" class="item">Portfolio</a></Header>
+  <div id="app" class="ui container">
+    <Header></Header>
+    <router-view></router-view>
+    <!--<Footer></Footer>-->
   </div>
 </template>
 
 <script>
-  import Header from './shared/components/Header.vue';
+  import Footer from './shared/components/Footer.vue';
+  import Header from './shared/components/header/Header.vue';
+  import Home from './home/Home.vue';
 
   export default {
     name: 'app',
-    components:{
+    components: {
+      Footer,
       Header,
+      Home,
     },
     data () {
-      return {
-
-      }
+      return {}
     }
   }
 </script>
