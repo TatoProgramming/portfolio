@@ -10,11 +10,6 @@
 </script>
 
 <style>
-  .top{
-    margin-top: 5em;
-  }
-  .bottom{
-    margin-bottom: 5em;
-  }
+
 </style>
 
