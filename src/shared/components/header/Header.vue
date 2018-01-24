@@ -1,7 +1,7 @@
 <template>
-  <header>
-    <JumboTron></JumboTron>
-    <NavBar></NavBar>
+  <header class="ui container">
+    <JumboTron/>
+    <NavBar/>
   </header>
 </template>
 

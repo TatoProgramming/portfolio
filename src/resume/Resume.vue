@@ -1,10 +1,11 @@
 <template>
   <main class="ui container">
-      <h3 class="large">Blog</h3>
+    <h2>Resume</h2>
   </main>
 </template>
+
 <script>
-  export default{
+  export default {
 
   }
 </script>

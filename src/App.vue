@@ -1,6 +1,7 @@
 <template>
-  <div id="app" class="ui container">
+  <div id="app">
     <Header></Header>
+    <div class="ui hidden divider"></div>
     <router-view></router-view>
     <!--<Footer></Footer>-->
   </div>
@@ -14,9 +15,8 @@
   export default {
     name: 'app',
     components: {
-      Footer,
+      // Footer,
       Header,
-      Home,
     },
     data () {
       return {}
