@@ -1,10 +1,14 @@
 <template>
   <main class="ui container">
     <div class="ui two stackable cards">
-      <Card title="Ray Tracer" imageSource="../../assets/images/example.jpg"></Card>
-      <Card title="Ray Marcher" imageSource="../../assets/images/example.jpg"></Card>
-      <Card title="Terrain Generator" imageSource="../../assets/images/example.jpg"></Card>
-      <Card title="Motion Capture" imageSource="../../assets/images/example.jpg"></Card>
+      <Card v-for="(project, i) in $appData.projects"
+            :key="i"
+            :name="project.name"
+            :imageSource="project.imageSource"
+            :date="project.date"
+            :description="project.description"
+            :meta="project.meta"
+      ></Card>
     </div>
   </main>
 </template>

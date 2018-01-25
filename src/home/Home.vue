@@ -1,18 +1,21 @@
 <template>
   <main class="ui container">
-    <h3>Home Page</h3>
-    <section>
-      <h3>TODO: Recent Projects</h3>
-    </section>
-    <section>
-      <h3>TODO: Recent Blog Post</h3>
-    </section>
+    <Segment :title="$appData.segments.about.title">
+      <p>My name is <strong>Taylor Putnam</strong>. I am a recent Computer Science graduate from Idaho State University.</p>
+    </Segment>
+    <Segment :title="$appData.segments.contact.title">
+    </Segment>
     <hr/>
   </main>
 </template>
 
 <script>
+  import Segment from './components/Segment';
+
   export default{
+    components:{
+      Segment
+    }
 
   }
 </script>

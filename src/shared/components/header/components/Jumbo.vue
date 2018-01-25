@@ -1,12 +1,18 @@
 <template>
   <section class="ui center aligned text container top bottom">
-    <h1 class="ui header large">Tato Programming</h1>
-    <h2 class="ui header medium">Something cool about me.</h2>
+    <h1 class="ui header large">Greetings, I'm Taylor Putnam.</h1>
+    <i class="ui icon massive bar"></i>
+    <SocialLinksBar></SocialLinksBar>
   </section>
 </template>
 
 <script>
-  export default{}
+  import SocialLinksBar from './SocialLinksBar';
+  export default{
+    components:{
+      SocialLinksBar
+    }
+  }
 </script>
 
 <style>
