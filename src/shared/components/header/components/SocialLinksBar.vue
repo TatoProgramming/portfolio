@@ -1,7 +1,7 @@
 <template>
   <div>
     <a :href="item.link" v-for="item in $appData.socialLinks">
-      <i :class="item.iconName" class="link big icon"></i>
+      <i :class="[item.iconName, 'link big icon']"></i>
     </a>
   </div>
 </template>
