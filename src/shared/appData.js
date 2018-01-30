@@ -2,13 +2,16 @@ import Vue from 'vue';
 
 const appData = {
   socialLinks: [
-    {iconName: "github square", link: ""},
-    {iconName: "linkedin square", link: ""}
+    {iconName: "github square", link: "", tooltip: "Github"},
+    {iconName: "linkedin square", link: "", tooltip: "Linkedin"},
+    {iconName: "mail square", link: "", tooltip: "Email"},
+    {iconName: "steam square", link: "", tooltip: "Steam"},
+    {iconName: "game square", link: "", tooltip: "Blizzard's BattleNet"},
   ],
   projects: [
     {
       name: "Ray Tracer",
-      imageSource: "/assets/images/example.jpg",
+      image: './assets/img/example.jpg',
       date: "MM/DD/YYYY",
       meta: "School Project - Computer Graphics",
       description: "My first implementation of a ray tracer done in real time.",
@@ -16,7 +19,7 @@ const appData = {
     },
     {
       name: "Terrain Generator",
-      imageSource: "",
+      image: "",
       date: "MM/DD/YYYY",
       meta: "School Project - Computer Graphics",
       description: "A procedural terrain generator done in webGL.",
@@ -24,7 +27,7 @@ const appData = {
     },
     {
       name: "Ray Marcher",
-      imageSource: "",
+      image: "",
       date: "MM/DD/YYYY",
       meta: "School Project - Computer Graphics",
       description: "This was an experiment with the ray marching rendering technique.",
@@ -32,7 +35,7 @@ const appData = {
     },
     {
       name: "Example",
-      imageSource: "",
+      image: "",
       date: "MM/DD/YYYY",
       meta: "School Project - Computer Graphics",
       description: "",

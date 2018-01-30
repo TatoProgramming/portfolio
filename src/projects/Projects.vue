@@ -4,7 +4,7 @@
       <Card v-for="(project, i) in $appData.projects"
             :key="i"
             :name="project.name"
-            :imageSource="project.imageSource"
+            :imageSource="project.image"
             :date="project.date"
             :description="project.description"
             :meta="project.meta"

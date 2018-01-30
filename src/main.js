@@ -6,7 +6,9 @@ import AppData from './shared/appData';
 
 import { store } from './store/store';
 
-
+// require('../index.html');
+require('../semantic/dist/semantic.min.css');
+require('../semantic/dist/semantic.min');
 
 Vue.use(AppData);
 Vue.use(VueRouter);

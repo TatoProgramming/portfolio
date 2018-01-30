@@ -3,7 +3,7 @@
     <Header></Header>
     <div class="ui hidden divider"></div>
     <router-view></router-view>
-    <!--<Footer></Footer>-->
+    <Footer></Footer>
   </div>
 </template>
 
@@ -12,10 +12,11 @@
   import Header from './shared/components/header/Header.vue';
   import Home from './home/Home.vue';
 
+
   export default {
     name: 'app',
     components: {
-      // Footer,
+      Footer,
       Header,
     },
     data () {
