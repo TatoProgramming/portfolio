@@ -16,9 +16,8 @@ Vue.use(VueRouter);
 const router = new VueRouter({
   routes,
   mode: 'history',
-  // base: window.location.pathname,
+  base: AppData.baseUrl,
 });
-console.log(window.location.pathname);
 
 new Vue({
   el: '#app',
