@@ -16,7 +16,7 @@ Vue.use(VueRouter);
 const router = new VueRouter({
   routes,
   mode: 'history',
-  base: AppData.baseUrl,
+  // base: AppData.baseUrl,
 });
 
 new Vue({
