@@ -1,7 +1,6 @@
 import Vue from 'vue';
 
 const appData = {
-  baseUrl: window.location.pathname,
   socialLinks: [
     {iconName: "github square", link: "", tooltip: "Github"},
     {iconName: "linkedin square", link: "", tooltip: "Linkedin"},
@@ -57,7 +56,6 @@ const appData = {
 
 };
 
-console.log(window.location.pathname);
 appData.install = function () {
   Object.defineProperty(Vue.prototype, '$appData', {
     get() {

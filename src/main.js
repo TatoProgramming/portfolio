@@ -2,11 +2,11 @@ import Vue from 'vue'
 import VueRouter from 'vue-router';
 import App from './App.vue'
 import { routes } from './routes';
-import AppData from './shared/appData';
+import AppData from './appData';
 
 import { store } from './store/store';
 
-// require('../index.html');
+// require('../index.html'); // TODO look into how to create an index.html on the fly with webpack
 require('../semantic/dist/semantic.min.css');
 require('../semantic/dist/semantic.min');
 
