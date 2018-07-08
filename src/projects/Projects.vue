@@ -1,6 +1,6 @@
 <template>
   <main class="ui container">
-    <div class="ui two stackable cards">
+    <div class="ui three stackable cards">
       <Card v-for="(project, i) in $appData.projects"
             :key="i"
             :name="project.name"

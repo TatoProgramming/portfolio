@@ -14,5 +14,10 @@
   }
 </script>
 
+<style scoped>
+  footer{
+    padding: 80px;
+  }
+</style>
 
 

@@ -1,20 +1,14 @@
 <template>
   <div>
-    <a :href="item.link" v-for="item in $appData.socialLinks">
-      <i :class="[item.iconName, 'link big icon']"></i>
+    <a :href="item.link" v-for="item in $appData.socialLinks" :title="item.tooltip">
+      <i :class="[item.iconName, 'link huge icon']"></i>
     </a>
   </div>
 </template>
 
 <script>
-
   export default {
     name: "SocialLinksBar",
-    // data(){
-    //   return{
-    //
-    //   }
-    // }
   }
 </script>
 

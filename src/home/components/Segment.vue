@@ -1,17 +1,19 @@
 <template>
-    <section class="ui segment">
+  <section class="ui segment">
+    <a :id="title">
       <h2 class="ui left floated header">{{ title }}</h2>
-      <div class="ui clearing divider"></div>
-      <slot></slot>
-    </section>
+    </a>
+    <div class="ui clearing divider"></div>
+    <slot></slot>
+  </section>
 </template>
 
 <script>
-    export default {
-        name: "segment",
-        props:[ 'title']
+  export default {
+    name: "segment",
+    props: ['title']
 
-    }
+  }
 </script>
 
 <style scoped>

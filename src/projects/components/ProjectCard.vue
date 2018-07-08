@@ -7,7 +7,6 @@
       <a href="#" class="header">{{ name }}</a>
       <div class="meta">
         <span class="category"> {{ meta }}</span>
-        <span class="date">{{ date }}</span>
       </div>
       <div class="description">
         {{ description }}
